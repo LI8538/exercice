@@ -1,0 +1,154 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+body{
+    border:3px solid rgb(0, 0, 0);
+    margin: 50px;
+}
+
+#conteneur{
+    position: relative;
+}
+
+#conteneur2{
+    display: flex;
+    
+}
+
+#conteneur2 > *{
+width: calc(100%/3);
+}
+
+h1{
+    /* background-color: antiquewhite; */
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+    
+}
+
+img{
+    background-color: blueviolet;
+    max-width: 100%;
+    /* width: 200px;
+    height: 200px; */
+}
+
+#prix{
+    /* background-color: rgb(43, 226, 113); */
+    /* margin-top: 30px; */
+}
+
+h2{
+  font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+}
+
+li{
+    font-size: 15px;
+}
+
+/* div color carre */
+
+.couleur{
+    display: flex;
+    gap: 10px;
+}
+.couleur>*{
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#rouge{
+    background-color:red;
+}
+
+#noir{
+    background-color:black;
+}
+
+#pink{
+    background-color:pink;
+}
+
+#purple{
+    background-color:purple;
+}
+
+#yellow{
+    background-color:yellow;
+}
+
+
+
+/* details */
+#details{
+    /* background-color: rgb(226, 177, 43); */
+    /* margin-top: 30px; */
+}
+
+ul{
+    list-style-type: none;
+   }
+
+li{
+ list-style-type: none;
+}
+
+#boutton{
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    background-color: rgb(10, 8, 8);
+    color: white;
+    
+}
+
+    a{
+       font-size: 20px;
+    }
+
+
+#solde{
+    background-color: red;
+    border: 3px black solid;
+    font-size: 30px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: -40px;
+    left: -30px;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+}
+
+#solde:hover{
+    transform: rotate(500deg);
+    -webkit-transform: rotate(500deg);
+    -moz-transform: rotate(500deg);
+    -ms-transform: rotate(500deg);
+    -o-transform: rotate(500deg);
+}
